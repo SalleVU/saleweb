@@ -1,0 +1,5 @@
+Stvari za popravit: 
+	1. Struktura foldera u projektu treba biti da u root folderu postoji samo index.html, sve ostalo ide u zasebne foldere kojima je naziv smislen.
+	2. Popraviti index.html, ne prikazuje stvari kako spada.
+	3. Popraviti git strukturu (najbolje kreniti izpočetka)
+	
