@@ -3,3 +3,9 @@ Stvari za popravit:
 	2. Popraviti index.html, ne prikazuje stvari kako spada.
 	3. Popraviti git strukturu (najbolje kreniti izpočetka)
 	
+
+2nd round:
+	1. popraviti putanje do fileova unutar svig href-ova
+	2. popraviti margine (body)
+	3. input-e lijepo poredati i sukladno predviđenoj veličini teksta povečati ili smanjiti, iskoristiti cijelu stranicu, kao što je i na primjeru koji trebaš slijediti.
+	4. Urediti kod, tabovi spaceovi, pripaziti da svaki div ima svoj /div
