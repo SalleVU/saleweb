@@ -2,23 +2,29 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
-	<script src="../javascript/form.js"> </script>
 	<h1>Contact Us</h1>
 	<title>Contact</title>
 </head>
 <body>
 	<!-- Contact Form style -->
-	<form id="form1">
-		<input type="text" id="fname" placeholder="First Name"/>
-		<input type="text" id="lname" placeholder="Last Name"/>
-		<input type="text" id="phone" placeholder="Phone"/>
-		<input type="email" id="email" placeholder="Email"/>
-		<textarea id="mess" placeholder="Message"></textarea>
-		
-		<button onclick="submit()"> Submit </button>
-		<button onclick="reset()"> Clear </button>
-
+	<form class="form-style-9" id="form1" action="#" method="post" onsubmit="sendmail(); return false;">
+		<ul>
+			<li>
+				<input type="text" id="fname" class="field-style field-split align-left" placeholder="First Name"/>
+				<input type="text" id="lname" class="field-style field-split align-left" placeholder="Last Name"/>
+			</li>
+			<li>
+				<input type="text" id="phone" class="field-style field-split align-left" placeholder="Phone"/>
+				<input type="email" id="email" class="field-style field-split align-left" placeholder="Email"/>
+			</li>
+			<li>	
+				<textarea id="mess" class="field-style field-split align-left" placeholder="Message"></textarea>
+			</li>
+		</ul>
+		<button id="sub" type="submit"> Submit </button>
+		<button id="clr" type="button"> Clear </button>
 	</form>
 	<!-- End Contact Form style -->
+	<script src="../javascript/form.js"> </script>
 </body>
 </html>
