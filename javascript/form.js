@@ -6,7 +6,7 @@
     
     function sendMail(){
         var mail = document.getElementById("form1");
-        document.getElementById("form1").action="mailto:Sasa.Djapic.STUDENT@unicreditgroup.zaba.hr?subject=subject&body=body";
+        document.getElementById("form1").action="mailto:sallevu32@gmail.com?subject=subject&body=body";
         document.getElementById("form1").submit();
     }
     

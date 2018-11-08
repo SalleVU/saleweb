@@ -108,8 +108,7 @@ li {
   background-color: #3e8e41;
 }
 
-/*https://www.sanwebe.com/2014/08/css-html-forms-designs*/
-
+/*Style of the Contact form*/
 .form-style-9{
 	max-width: 450px;
 	background: #FAFAFA;
@@ -136,10 +135,6 @@ li {
 	padding: 8px;
 	outline: none;
 	border: 1px solid #B0CFE0;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
 
 }.form-style-9 ul li  .field-style:focus{
 	box-shadow: 0 0 5px #B0CFE0;
@@ -179,4 +174,85 @@ li {
 .form-style-9 ul li input[type="submit"]:hover {
 	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
 	background-color: #28739E;
+}
+
+/* Calculator design */
+
+.calculator {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 700px;
+}
+
+.calculator-screen {
+  width: 95%;
+  font-size: 7rem;
+  height: 120px;
+  border: none;
+  background: url('../pictures/black.jpg');
+  color: #fff;
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.calculator-buttons {
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 3px solid #A9A9A9;
+  background-color: transparent;
+  font-size: 4rem;
+  color: #0000ff;
+  background-image: linear-gradient(to bottom,transparent,transparent 50%,);
+}
+
+button:hover {
+  background-color: #eaeaea;
+}
+
+.operator {
+  color: #3CB371;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 3px solid #A9A9A9;
+  background-color: transparent;
+  font-size: 4rem;
+  background-image: linear-gradient(to bottom,transparent,transparent 50%,);
+}
+
+.all-clear {
+  background-color: #ff0000;
+  border-color: #660000;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.all-clear:hover {
+  background-color: #f17377;
+}
+
+.equal-sign {
+  background-color: #2e86c0;
+  border-color: #337cac;
+  color: #fff;
+  height: 100%;
+  grid-area: 2 / 4 / 6 / 5;
+}
+
+.equal-sign:hover {
+  background-color: #4e9ed4;
+}
+
+.calculator-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  padding: 20px;
 }
